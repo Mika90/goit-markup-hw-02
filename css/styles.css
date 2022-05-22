@@ -1,17 +1,69 @@
-:root{
-    --active-button-color:#2196F3;
-    --button-color:#F5F4FA;
-    --active-link-color:#2196F3;
-    --text-color:#212121;
+:root {
+    --active-button-color: #2196F3;
+    --button-color: #F5F4FA;
+    --active-link-color: #2196F3;
+    --text-color: #212121;
 }
+
 body {
-    font-family: "RobotoRegular 400", "RobotoMedium 500", "RobotoBold 700", "RobotoBlack 900", sans-serif ;
-    color: var(--text-color)
+    font-family: "RobotoRegular 400", "RobotoMedium 500", "RobotoBold 700", "RobotoBlack 900", sans-serif;
+    color: var(--text-color);
 }
+
 .logo-link {
-    font-family: "Raleway", sans-serif }
-.button { background-color: var(--button-color); color: black}
-.button:hover
-{ background-color: var(--active-button-color); color: white}
-.link {color: black }
-.link:hover {color: var(--active-link-color) }
+    font-family: "Raleway", sans-serif;
+}
+
+.button {
+    background-color: var(--button-color);
+    color: black;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--active-button-color);
+    color: white;
+}
+
+.link {
+    color: black;
+}
+
+.link:hover {
+    color: var(--active-link-color);
+}
+
+.header-link {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.17;
+}
+
+.picture-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.portfolio-navigation {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.picture-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.17;
+}
+
+.picture-work {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.17;
+}
+
+.background {
+    background-color: #2F303A;
+    color: white;
+}

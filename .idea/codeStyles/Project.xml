@@ -1,8 +1,10 @@
 <component name="ProjectCodeStyleConfiguration">
   <code_scheme name="Project" version="173">
+    <CssCodeStyleSettings>
+      <option name="ENFORCE_QUOTES_ON_FORMAT" value="true" />
+    </CssCodeStyleSettings>
     <HTMLCodeStyleSettings>
       <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
-      <option name="HTML_QUOTE_STYLE" value="Single" />
       <option name="HTML_ENFORCE_QUOTES" value="true" />
     </HTMLCodeStyleSettings>
     <JSCodeStyleSettings version="0">
@@ -34,6 +36,98 @@
         <option name="CONTINUATION_INDENT_SIZE" value="2" />
         <option name="TAB_SIZE" value="2" />
       </indentOptions>
+      <arrangement>
+        <rules>
+          <section>
+            <rule>
+              <match>
+                <AND>
+                  <NAME>class</NAME>
+                  <XML_ATTRIBUTE />
+                </AND>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <AND>
+                  <NAME>id</NAME>
+                  <XML_ATTRIBUTE />
+                </AND>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <AND>
+                  <NAME>name</NAME>
+                  <XML_ATTRIBUTE />
+                </AND>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <AND>
+                  <NAME>data-*</NAME>
+                  <XML_ATTRIBUTE />
+                </AND>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <AND>
+                  <NAME>src, for, type, href, value</NAME>
+                  <XML_ATTRIBUTE />
+                </AND>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <AND>
+                  <NAME>title</NAME>
+                  <XML_ATTRIBUTE />
+                </AND>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <AND>
+                  <NAME>alt</NAME>
+                  <XML_ATTRIBUTE />
+                </AND>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <AND>
+                  <NAME>role, aria-*</NAME>
+                  <XML_ATTRIBUTE />
+                </AND>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <XML_ATTRIBUTE />
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+          </section>
+        </rules>
+      </arrangement>
     </codeStyleSettings>
     <codeStyleSettings language="JavaScript">
       <option name="SOFT_MARGINS" value="100" />

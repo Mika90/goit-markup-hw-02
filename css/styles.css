@@ -1,0 +1,17 @@
+:root{
+    --active-button-color:#2196F3;
+    --button-color:#F5F4FA;
+    --active-link-color:#2196F3;
+    --text-color:#212121;
+}
+body {
+    font-family: "RobotoRegular 400", "RobotoMedium 500", "RobotoBold 700", "RobotoBlack 900", sans-serif ;
+    color: var(--text-color)
+}
+.logo-link {
+    font-family: "Raleway", sans-serif }
+.button { background-color: var(--button-color); color: black}
+.button:hover
+{ background-color: var(--active-button-color); color: white}
+.link {color: black }
+.link:hover {color: var(--active-link-color) }

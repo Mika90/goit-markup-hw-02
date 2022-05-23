@@ -25,6 +25,7 @@
     --picture-title-font-weight: 500;
     --picture-title-line-height: 1.17;
     --our-team-container-color: #F5F4FA;
+    --our-team-element-background: white;
 }
 
 body {
@@ -57,7 +58,7 @@ body {
 }
 
 .our-team-element {
-    background-color: white;
+    background-color: var(--our-team-element-background);
     display: inline-block;
 }
 

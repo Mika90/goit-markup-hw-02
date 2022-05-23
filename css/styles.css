@@ -1,8 +1,28 @@
 :root {
-    --active-button-color: #2196F3;
-    --button-color: #F5F4FA;
-    --active-link-color: #2196F3;
     --text-color: #212121;
+    --link-color: black;
+    --link-active-color: #2196F3;
+    --button-active-color: #2196F3;
+    --button-color: #F5F4FA;
+    --button-text-color: black;
+    --button-active-text-color: white;
+    --header-link-font-size: 14px;
+    --header-link-font-weight: 500;
+    --header-link-line-height: 1.17;
+    --portfolio-picture-title-font-size: 18px;
+    --portfolio-picture-title-font-weight: 700;
+    --portfolio-picture-title-line-height: 2;
+    --portfolio-navigation-font-size: 16px;
+    --portfolio-navigation-font-weight: 500;
+    --portfolio-navigation-line-height: 1.25;
+    --background-color: #2F303A;
+    --background-text-color: white;
+    --picture-work-font-size: 16px;
+    --picture-work-font-weight: 400;
+    --picture-work-line-height: 1.17;
+    --picture-title-font-size: 16px;
+    --picture-title-font-weight: 500;
+    --picture-title-line-height: 1.17;
 }
 
 body {
@@ -16,54 +36,54 @@ body {
 
 .button {
     background-color: var(--button-color);
-    color: black;
+    color: var(--button-text-color);
     cursor: pointer;
 }
 
-.button:hover {
-    background-color: var(--active-button-color);
-    color: white;
+.button:hover, .button:focus {
+    background-color: var(--button-active-color);
+    color: var(--button-active-text-color);
 }
 
 .link {
-    color: black;
+    color: var(--link-color);
 }
 
-.link:hover {
-    color: var(--active-link-color);
+.link:hover, .link:focus {
+    color: var(--link-active-color);
 }
 
 .header-link {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.17;
+    font-size: var(--header-link-font-size);
+    font-weight: var(--header-link-font-weight);
+    line-height: var(--header-link-line-height);
 }
 
-.picture-title {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 2;
+.portfolio-picture-title {
+    font-size: var(--portfolio-picture-title-font-size);
+    font-weight: var(--portfolio-picture-title-font-weight);
+    line-height: var(--portfolio-picture-title-line-height);
 }
 
 .portfolio-navigation {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.25;
+    font-size: var(--portfolio-navigation-font-size);
+    font-weight: var(--portfolio-navigation-font-weight);
+    line-height: var(--portfolio-navigation-line-height);
 }
 
 .picture-title {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.17;
+    font-size: var(--picture-title-font-size);
+    font-weight: var(--picture-title-font-weight);
+    line-height: var(--picture-title-line-height);
 }
 
 .picture-work {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.17;
+    font-size: var(--picture-work-font-size);
+    font-weight: var(--picture-work-font-weight);
+    line-height: var(--picture-work-line-height);
 }
 
 .background {
-    background-color: #2F303A;
-    color: white;
+    background-color: var(--background-color);
+    color: var(--background-text-color);
 }

@@ -1,4 +1,5 @@
 :root {
+    --logo-start-color: #2196F3;
     --text-color: #212121;
     --link-color: black;
     --link-active-color: #2196F3;
@@ -23,6 +24,7 @@
     --picture-title-font-size: 16px;
     --picture-title-font-weight: 500;
     --picture-title-line-height: 1.17;
+    --our-team-container-color: #F5F4FA;
 }
 
 body {
@@ -30,14 +32,52 @@ body {
     color: var(--text-color);
 }
 
+.center {
+    text-align: center;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.pre {
+    white-space: pre;
+}
+
+.title {
+    text-align: center;
+}
+
+.our-team-container {
+    background-color: var(--our-team-container-color);
+}
+
+.our-team-element {
+    background-color: white;
+    display: inline-block;
+}
+
 .logo-link {
     font-family: "Raleway", sans-serif;
+}
+
+.logo-start {
+    color: var(--logo-start-color);
 }
 
 .button {
     background-color: var(--button-color);
     color: var(--button-text-color);
     cursor: pointer;
+}
+
+.order-button {
+    background-color: var(--button-active-color);
+    color: var(--button-active-text-color);
 }
 
 .button:hover, .button:focus {
@@ -47,6 +87,7 @@ body {
 
 .link {
     color: var(--link-color);
+    text-decoration: none;
 }
 
 .link:hover, .link:focus {
@@ -57,6 +98,7 @@ body {
     font-size: var(--header-link-font-size);
     font-weight: var(--header-link-font-weight);
     line-height: var(--header-link-line-height);
+    display: inline;
 }
 
 .portfolio-picture-title {

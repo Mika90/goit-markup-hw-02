@@ -26,6 +26,11 @@
     --picture-title-line-height: 1.17;
     --our-team-container-color: #F5F4FA;
     --our-team-element-background: white;
+    --address: #757575;
+    --footer-logo: white;
+    --footer-address: #FFFFFF;
+    --footer-address-size: 14px;
+    --footer-address-contact: #FFFFFF3C;
 }
 
 body {
@@ -64,6 +69,8 @@ body {
 
 .logo-link {
     font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    color: black;
 }
 
 .logo-start {
@@ -79,6 +86,7 @@ body {
 .order-button {
     background-color: var(--button-active-color);
     color: var(--button-active-text-color);
+    cursor: pointer;
 }
 
 .button:hover, .button:focus {
@@ -129,4 +137,21 @@ body {
 .background {
     background-color: var(--background-color);
     color: var(--background-text-color);
+}
+
+.address {
+    color: var(--address);
+}
+
+.footer-logo {
+    color: var(--footer-logo);
+}
+
+.footer-address {
+    font-size: var(--footer-address-size);
+    color: var(--footer-address);
+}
+
+.footer-address-contact > a.link {
+    color: var(--footer-address-contact);
 }
